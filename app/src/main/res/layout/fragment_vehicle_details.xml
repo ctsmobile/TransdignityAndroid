@@ -1,0 +1,679 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_margin="@dimen/_10sdp"
+    android:id="@+id/ll_vehicle_head"
+    tools:context=".fragments.VehicleDetailsFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Vehicle Type"
+                android:textColor="@color/dark_grey"
+                android:textSize="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_10sdp"
+                ></TextView>
+            <LinearLayout
+                android:layout_marginTop="@dimen/_5sdp"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/_30sdp"
+                android:orientation="vertical"
+                android:background="@drawable/edittext_background_shape"
+                android:gravity="center"
+                >
+                <Spinner
+                    android:id="@+id/spinner_vehicle_type"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                </Spinner>
+            </LinearLayout>
+            <LinearLayout
+
+                android:id="@+id/ll_vehicle"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:visibility="gone"
+
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Vehicle Brand"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <Spinner
+                        android:id="@+id/spinner_vehicle_brand"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </Spinner>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Vehicle Model"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:orientation="vertical"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center"
+                    >
+
+                    <Spinner
+                        android:id="@+id/spinner_vehicle_model"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+                    </Spinner>
+                </LinearLayout>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Select Vehicle Colour"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:orientation="vertical"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center"
+                    >
+                    <Spinner
+                        android:id="@+id/spinner_vehicle_color"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                    </Spinner>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Registration Number"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_registration_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="VIN/HIN Number"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_vin_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vehicle Tag/Licence Plate Number"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_vehicle_licence_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Insurance Carrier"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_insurance"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Policy Number"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_policy_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Exp. Date"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <LinearLayout
+                    android:id="@+id/ll_expr_date"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:orientation="horizontal"
+                    android:background="@drawable/edittext_background_shape"
+
+                    >
+                    <TextView
+                        android:layout_weight="3"
+                        android:id="@+id/tv_date_of_expi"
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:textSize="@dimen/_10sdp"
+                        android:paddingLeft="@dimen/_10sdp"
+                        android:gravity="center_vertical"
+
+                        android:maxLines="1"
+                        android:text=""
+                        ></TextView>
+                    <ImageView
+                        android:layout_weight="1"
+                        android:id="@+id/im_date_of_death"
+                        android:layout_width="0dp"
+                        android:layout_height="@dimen/_16sdp"
+                        android:layout_gravity="center"
+                        android:src="@drawable/ic_calendar"
+                        tools:ignore="VectorDrawableCompat" />
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="@dimen/_10sdp"
+                    >
+
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Pollution image"
+                                android:textColor="@color/dark_grey"
+                                android:textSize="@dimen/_10sdp"></TextView>
+
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:id="@+id/ll_poluttion"
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:background="@drawable/button_shape"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/im_doc1"
+                                    android:layout_width="@dimen/_50sdp"
+                                    android:layout_height="@dimen/_50sdp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/ic_upload"
+                                    android:visibility="gone"
+
+                                    ></ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="Upload"
+                                    android:gravity="center"
+
+                                    android:textColor="#454444"
+                                    android:textSize="@dimen/_10sdp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="@dimen/_10ssp"
+                            android:gravity="center_vertical"
+                            android:layout_gravity="center_vertical"
+                            android:orientation="horizontal">
+
+                            <TextView
+                                android:layout_weight="2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Registration image"
+                                android:textColor="@color/dark_grey"
+                                android:textSize="@dimen/_10sdp"></TextView>
+
+                            <LinearLayout
+                                android:layout_weight="1"
+                                android:id="@+id/ll_registration"
+                                android:layout_width="@dimen/_85sdp"
+                                android:layout_height="@dimen/_30sdp"
+                                android:layout_gravity="center_horizontal"
+                                android:gravity="center"
+                                android:background="@drawable/button_shape"
+                                android:orientation="vertical">
+
+                                <ImageView
+                                    android:id="@+id/im_doc2"
+                                    android:layout_width="@dimen/_50sdp"
+                                    android:layout_height="@dimen/_50sdp"
+                                    android:layout_gravity="center"
+                                    android:src="@drawable/ic_upload"
+                                    android:visibility="gone"
+
+                                    ></ImageView>
+
+                                <TextView
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:text="Upload"
+                                    android:gravity="center"
+
+                                    android:textColor="#454444"
+                                    android:textSize="@dimen/_10sdp" />
+
+                            </LinearLayout>
+
+                        </LinearLayout>
+
+
+
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/btn_submit"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:background="@drawable/button_shape"
+                    android:textSize="@dimen/_9sdp"
+                    android:text="Submit"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    ></TextView>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/ll_boat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:visibility="visible"
+                >
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Owner"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_owner"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Captain"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_caption"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Registration Number"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_boat_registration_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Insurance Carrier"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_boat_insurance"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Boat Name"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_boat_name"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Vessel Number"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_vessel_number"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Location"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    ></TextView>
+                <EditText
+                    android:id="@+id/ed_location"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_30sdp"
+                    android:textSize="@dimen/_10sdp"
+                    android:background="@drawable/edittext_background_shape"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/_10sdp"
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:maxLines="1"
+                    >
+
+                </EditText>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:text="BASR Form Attached"
+                    android:textColor="@color/dark_grey"
+                    android:textSize="@dimen/_10sdp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/_20sdp"
+                    android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    >
+                    <ImageView
+                        android:id="@+id/im_yes"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:background="@drawable/radio_unselect"></ImageView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Yes"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        ></TextView>
+                    <ImageView
+                        android:id="@+id/im_no"
+                        android:layout_width="@dimen/_15sdp"
+                        android:layout_height="@dimen/_15sdp"
+                        android:background="@drawable/radio_selected"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        ></ImageView>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="No"
+                        android:textSize="@dimen/_10sdp"
+                        android:layout_marginLeft="@dimen/_5sdp"
+                        ></TextView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/card_doc3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:visibility="gone"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_weight="2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="basrform image"
+                        android:textColor="@color/dark_grey"
+                        android:textSize="@dimen/_10sdp"></TextView>
+
+                    <LinearLayout
+                        android:layout_weight="1"
+                        android:id="@+id/ll_basrform"
+                        android:layout_width="@dimen/_80sdp"
+                        android:layout_height="@dimen/_30sdp"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:background="@drawable/button_shape"
+                        android:orientation="vertical">
+
+                        <ImageView
+                            android:id="@+id/im_basrform"
+                            android:layout_width="@dimen/_50sdp"
+                            android:layout_height="@dimen/_50sdp"
+                            android:layout_gravity="center"
+                            android:src="@drawable/ic_upload"
+                            android:visibility="gone"
+
+                            ></ImageView>
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:text="Upload"
+                            android:gravity="center"
+
+                            android:textColor="#454444"
+                            android:textSize="@dimen/_10sdp" />
+
+                    </LinearLayout>
+
+                </LinearLayout>
+                <TextView
+                    android:id="@+id/btn_submit1"
+                    android:layout_width="@dimen/_80sdp"
+                    android:layout_height="@dimen/_25sdp"
+                    android:background="@drawable/button_shape"
+                    android:textSize="@dimen/_9sdp"
+                    android:text="Submit"
+                    android:textColor="@color/black"
+                    android:gravity="center"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="@dimen/_5sdp"
+                    android:layout_marginTop="@dimen/_30sdp"
+                    ></TextView>
+
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

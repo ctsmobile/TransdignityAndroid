@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/Dummy.txt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/activity/AddEventActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/activity/ContactusActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/activity/SettingsActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/activity/VerifyMobileActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/utils/MyConstants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/java/com/chawtech/qccloud/activities/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/java/com/chawtech/qccloud/adapters/HomeAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/java/com/chawtech/qccloud/fragments/AppointmentFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/java/com/chawtech/qccloud/fragments/HomeFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/res/drawable/home_category_row.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/res/layout/activity_main.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/res/layout/activity_welcome.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/res/layout/bottom_nav_layout.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/res/layout/fragment_home.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/res/layout/fragment_my_booking.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/res/layout/home_category_row.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../qc_cloud/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:id="@+id/llayout"
+
+    tools:context=".fragments.bankDetailsFragments.AddBankDetailsFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:background="@drawable/ic_chevron_left_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Add Account "
+                android:textColor="@color/black"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_margin="@dimen/_10sdp"
+        >
+        <LinearLayout
+            android:layout_width="@dimen/_50sdp"
+            android:layout_height="@dimen/_50sdp"
+            >
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/bank"
+                ></ImageView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_50sdp"
+            android:orientation="vertical"
+            android:gravity="center_vertical"
+            >
+           <TextView
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:textColor="@color/black"
+               android:textSize="@dimen/_8sdp"
+               android:text="Selected Bank"
+               ></TextView>
+            <Spinner
+                android:id="@+id/spinner_trip_type"
+                android:layout_width="match_parent"
+                android:entries="@array/Select_Bank"
+                android:layout_height="wrap_content">
+
+            </Spinner>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="@dimen/_10sdp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account No."
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/_10sdp"
+            ></TextView>
+        <EditText
+            android:id="@+id/ed_account_no"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textSize="@dimen/_10sdp"
+            android:background="@drawable/edittext_background_shape"
+            android:paddingLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:maxLines="1"
+            ></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirm Account No."
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            ></TextView>
+        <EditText
+            android:id="@+id/ed_confirm_account_no"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textSize="@dimen/_10sdp"
+            android:background="@drawable/edittext_background_shape"
+            android:paddingLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:maxLines="1"
+            ></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IFSC Code"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            ></TextView>
+        <EditText
+            android:id="@+id/ed_ifsc_code"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textSize="@dimen/_10sdp"
+            android:background="@drawable/edittext_background_shape"
+            android:paddingLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:maxLines="1"
+            ></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Account Holder Name"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            ></TextView>
+        <EditText
+            android:id="@+id/ed_account_holder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textSize="@dimen/_10sdp"
+            android:background="@drawable/edittext_background_shape"
+            android:paddingLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:maxLines="1"
+            ></EditText>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone Number (optional)"
+            android:textColor="@color/dark_grey"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            ></TextView>
+        <EditText
+            android:id="@+id/ed_phone_no"
+
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_30sdp"
+            android:textSize="@dimen/_10sdp"
+            android:background="@drawable/edittext_background_shape"
+            android:paddingLeft="@dimen/_10sdp"
+            android:layout_marginTop="@dimen/_5sdp"
+            android:maxLines="1"
+            ></EditText>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1"
+        android:layout_marginBottom="@dimen/_50sdp"
+        android:layout_marginTop="@dimen/_20sdp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            android:gravity="end"
+
+            >
+            <TextView
+                android:id="@+id/ll_submit"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/button_shape"
+                android:textSize="@dimen/_9sdp"
+                android:text="Submit"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/_20sdp"
+                ></TextView>
+            <TextView
+                android:visibility="gone"
+                android:id="@+id/tv_retry"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/button_shape"
+                android:textSize="@dimen/_9sdp"
+                android:text="Retry"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginRight="@dimen/_20sdp"
+                ></TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.5"
+            >
+            <TextView
+                android:id="@+id/ll_cancel"
+                android:layout_width="@dimen/_70sdp"
+                android:layout_height="@dimen/_25sdp"
+                android:background="@drawable/button_unselected"
+                android:textSize="@dimen/_9sdp"
+                android:text="Cancel"
+                android:textColor="@color/black"
+                android:gravity="center"
+                android:layout_marginLeft="@dimen/_20sdp"
+                ></TextView>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>
