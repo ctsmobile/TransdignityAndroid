@@ -1,0 +1,2789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidLayouts">
+    <shared>
+      <config />
+    </shared>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="local" />
+    <option name="TOOL_WINDOW_LOG_LEVEL" value="debug" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="099692fe-512f-4070-8066-c1e68fe3bd43" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/models/payment/PaymentHistoryResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/airport_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/ashes_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/burial_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/casket_service.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/courier_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/descendent_removal.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/flower_service.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/limo_service.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/trns_logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/src/main/res/drawable/us_service.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/executionHistory/executionHistory.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/fileHashes.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/fileHashes/resourceHashesCache.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/classAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/jarAnalysis.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/javaCompile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.5/javaCompile/taskHistory.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_1_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_android_volley_volley_1_1_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_3_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_github_bumptech_glide_glide_4_3_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_ads_identifier_16_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_base_16_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_2_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_basement_16_2_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_clearcut_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_clearcut_16_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_location_16_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_16_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_maps_16_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_16_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_measurement_api_16_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_phenotype_16_0_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_phenotype_16_0_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_stats_16_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_tasks_16_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_10_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_gms_play_services_vision_10_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_libraries_places_places_1_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_android_libraries_places_places_1_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_16_0_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_2_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_analytics_impl_16_2_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_common_16_0_3_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_17_0_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_iid_interop_16_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_17_0_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_17_0_2_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_measurement_connector_impl_17_0_2_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_17_3_4_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_google_firebase_firebase_messaging_17_3_4_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_squareup_picasso_picasso_2_71828_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_theartofdev_edmodo_android_image_cropper_2_5_1_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__com_theartofdev_edmodo_android_image_cropper_2_5_1_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_1_0_aar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Gradle__de_hdodenhof_circleimageview_2_1_0_aar.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/HomeAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/HomeAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/DescendantViewDetailPageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/DescendantViewDetailPageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/UsVeteranDetailPageFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/UsVeteranDetailPageFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/PaymentFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/PaymentFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/models/request/ServiceDetailPage/DescendantDetailPageModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/models/request/ServiceDetailPage/DescendantDetailPageModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/network/ApiInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/network/ApiInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/all_services_popup.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/all_services_popup.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_airport_removal_detail_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_airport_removal_detail_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_descendant_view_detail_page.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_descendant_view_detail_page.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_home.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_new_request.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_new_request.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/layout/fragment_payment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/res/values/strings.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="deathserviceprovider" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="deathserviceprovider" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="deathserviceprovider" type="f1a62948:ProjectNode" />
+                <item name="app" type="2d1252cf:ModuleNode" />
+                <item name="Dependencies" type="6de06a37:ExternalSystemViewDefaultContributor$MyDependenciesNode" />
+              </path>
+            </expand>
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+        <option value="resourceFile" />
+        <option value="layoutResourceFile" />
+      </list>
+    </option>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="EXPORT_PRIVATE_KEY" value="false" />
+    <option name="KEY_STORE_PATH" value="$PROJECT_DIR$/../jks_transdignity.jks" />
+    <option name="KEY_ALIAS" value="key0" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1hozDK1aZo63QUHrTHAndVZ5Dkl" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ApkExportedModule" value="deathserviceprovider.app" />
+    <property name="BundleExportedModule" value="deathserviceprovider.app" />
+    <property name="DEBUGGABLE_DEVICE" value="xiaomi-redmi_note_8-14622bb0" />
+    <property name="DEBUGGABLE_PROCESS" value="com.transdignity.deathserviceprovider" />
+    <property name="DEBUGGER_ID" value="Auto" />
+    <property name="ExportApk.ApkPath" value="$PROJECT_DIR$/app" />
+    <property name="ExportApk.BuildVariants" value="release" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHOW_ALL_PROCESSES" value="true" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/app/src/main/res/drawable" />
+    <property name="memory.settings.postsync.last.time.stamp" value="1635404253395" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.17" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="android.template.2105146009">
+      <recent name="com.transdignity.deathserviceprovider.fragments.servicesTrackStatus" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/src/main/res/drawable" />
+    </key>
+    <key name="android.template.1752482291">
+      <recent name="com.transdignity.deathserviceprovider.fragments.ServicesRequestPayment" />
+    </key>
+    <key name="android.template.501455332">
+      <recent name="com.transdignity.deathserviceprovider.fragments.ServicesDetailsFragments" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.transdignity.deathserviceprovider.adapters" />
+      <recent name="com.transdignity.deathserviceprovider.network" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidJUnit" factoryName="Android JUnit">
+      <option name="TEST_OBJECT" value="class" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="deathserviceprovider.app" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="false" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="false" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="SKIP_NOOP_APK_INSTALLATIONS" value="true" />
+      <option name="FORCE_STOP_RUNNING_APP" value="true" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Hybrid>
+      <Java />
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Sample Java Methods" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2">
+        <option name="Android.Gradle.BeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="099692fe-512f-4070-8066-c1e68fe3bd43" name="Default Changelist" comment="" />
+      <created>1600692111819</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600692111819</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="by pradeep 19/03/2021" />
+    <MESSAGE value="by pradeep 20/03/2021" />
+    <MESSAGE value="by pradeep" />
+    <MESSAGE value="all service complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="all service complete" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>482</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.NewRequestFragment" method="callApi" />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>610</line>
+          <properties method="onFailure" />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>551</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>441</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.LimoDetailFragment" method="limoServiceApi" />
+          <option name="timeStamp" value="41" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>555</line>
+          <properties method="onFailure" />
+          <option name="timeStamp" value="61" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>413</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.CourierServiceFragment" method="CourierServiceApi" />
+          <option name="timeStamp" value="68" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/AshesTrackFragment.java</url>
+          <line>123</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.servicesTrackStatusFragments.AshesTrackFragment" method="trackStatus" />
+          <option name="timeStamp" value="114" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/AshesTrackFragment.java</url>
+          <line>128</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="118" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/TrackFragment.java</url>
+          <line>94</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.TrackFragment" method="trackStatus" />
+          <option name="timeStamp" value="122" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/TrackFragment.java</url>
+          <line>99</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="126" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>376</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.CasketServiceFragment" method="validation" />
+          <option name="timeStamp" value="132" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>406</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.CasketServiceFragment" method="CasketServiceApi" />
+          <option name="timeStamp" value="137" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>447</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="140" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>516</line>
+          <properties method="onFailure" />
+          <option name="timeStamp" value="145" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>482</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="149" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>280</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.LimoDetailFragment" method="callPlaceSearchIntent" />
+          <option name="timeStamp" value="153" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/LimoTrackFragment.java</url>
+          <line>309</line>
+          <properties method="onFailure" />
+          <option name="timeStamp" value="168" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/LimoTrackFragment.java</url>
+          <line>124</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="170" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/LimoTrackFragment.java</url>
+          <line>119</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.servicesTrackStatusFragments.LimoTrackFragment" method="trackStatus" />
+          <option name="timeStamp" value="177" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>412</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.LimoDetailFragment" method="validation" />
+          <option name="timeStamp" value="185" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>292</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.FlowerServiceFragment" method="flowerServiceApi" />
+          <option name="timeStamp" value="191" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>271</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.FlowerServiceFragment" method="validation" />
+          <option name="timeStamp" value="193" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>328</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="195" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>399</line>
+          <properties method="onFailure" />
+          <option name="timeStamp" value="201" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/FlowerTrackFragment.java</url>
+          <line>117</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.servicesTrackStatusFragments.FlowerTrackFragment" method="trackStatus" />
+          <option name="timeStamp" value="210" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/FlowerTrackFragment.java</url>
+          <line>122</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="212" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/CourierTrackFragment.java</url>
+          <line>127</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.servicesTrackStatusFragments.CourierTrackFragment" method="trackStatus" />
+          <option name="timeStamp" value="217" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>124</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.DecendentDetailFragment" method="getProfileDetails" />
+          <option name="timeStamp" value="225" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>133</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="228" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>180</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.ServicesDetailsFragments.CourierDetailsPageFragment" method="getProfileDetails" />
+          <option name="timeStamp" value="235" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>189</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="237" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>254</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="261" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>158</line>
+          <properties class="com.transdignity.deathserviceprovider.activities.SignupActivity" method="step3Validation" />
+          <option name="timeStamp" value="274" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>98</line>
+          <properties class="com.transdignity.deathserviceprovider.activities.SignupActivity" method="step1Validation" />
+          <option name="timeStamp" value="277" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>128</line>
+          <properties class="com.transdignity.deathserviceprovider.activities.SignupActivity" method="step2Validation" />
+          <option name="timeStamp" value="279" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>188</line>
+          <properties class="com.transdignity.deathserviceprovider.activities.SignupActivity" method="callSignUpApi" />
+          <option name="timeStamp" value="282" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>218</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="288" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>265</line>
+          <properties method="onFailure" />
+          <option name="timeStamp" value="293" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/AirportArrivalFragment.java</url>
+          <line>582</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="300" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/AirportArrivalFragment.java</url>
+          <line>568</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.AirportArrivalFragment" method="airportRemovalApi" />
+          <option name="timeStamp" value="305" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/AirportArrivalFragment.java</url>
+          <line>636</line>
+          <properties method="onFailure" />
+          <option name="timeStamp" value="309" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/LoginActivity.java</url>
+          <line>191</line>
+          <properties class="com.transdignity.deathserviceprovider.activities.LoginActivity" method="callForgetPassword" />
+          <option name="timeStamp" value="311" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/LoginActivity.java</url>
+          <line>208</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="316" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>109</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.DetailFormPage.AshesViewDetialPageFragment" method="getProfileDetails" />
+          <option name="timeStamp" value="321" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>118</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="323" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java</url>
+          <line>201</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.ServicesDetailsFragments.AirportRemovalDetailsFragment" method="getProfileDetails" />
+          <option name="timeStamp" value="326" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java</url>
+          <line>210</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="327" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>146</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.bankDetailsFragments.ClientPaymentIntegrationFragment" method="registerApi" />
+          <option name="timeStamp" value="350" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>169</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="360" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>222</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.bankDetailsFragments.ClientPaymentIntegrationFragment" method="sendPaymentResponseApi" />
+          <option name="timeStamp" value="368" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>244</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="378" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>291</line>
+          <properties method="onFailure" />
+          <option name="timeStamp" value="384" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>527</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.UsVeteranServiceFragment" method="getCountryListApi" />
+          <option name="timeStamp" value="386" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>543</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="392" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>513</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.UsVeteranServiceFragment" method="validationSecond" />
+          <option name="timeStamp" value="409" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>685</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="417" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/USVeteranTrakingFragment.java</url>
+          <line>121</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="428" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/BurialSeaDetailFragment.java</url>
+          <line>193</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.ServicesDetailsFragments.BurialSeaDetailFragment" method="getProfileDetails" />
+          <option name="timeStamp" value="436" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/BurialServiceFragment.java</url>
+          <line>335</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.BurialServiceFragment" method="getDatepicker" />
+          <option name="timeStamp" value="437" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>800</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.NewRequestFragment" method="getHospitalTypeListApi" />
+          <option name="timeStamp" value="438" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java</url>
+          <line>211</line>
+          <properties class="com.transdignity.deathserviceprovider.adapters.EarningListAdapter" method="giveRatingApi" />
+          <option name="timeStamp" value="439" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java</url>
+          <line>229</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="448" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/LimoDetailPageFragment.java</url>
+          <line>189</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.ServicesDetailsFragments.LimoDetailPageFragment" method="getProfileDetails" />
+          <option name="timeStamp" value="449" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/LimoDetailPageFragment.java</url>
+          <line>198</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="450" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>143</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.servicesTrackStatusFragments.BurialAtSeaTrackingFragment" method="trackStatus" />
+          <option name="timeStamp" value="460" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>148</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="461" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/HomeFragment.java</url>
+          <line>352</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.HomeFragment" method="requestListApi" />
+          <option name="timeStamp" value="521" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>563</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.LimoDetailFragment" method="checkDriverApi" />
+          <option name="timeStamp" value="527" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>580</line>
+          <properties method="onResponse" />
+          <option name="timeStamp" value="534" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-method">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/PaymentFragment.java</url>
+          <line>188</line>
+          <properties class="com.transdignity.deathserviceprovider.fragments.PaymentFragment" method="getPaymentListApi" />
+          <option name="timeStamp" value="563" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>490</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>493</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>496</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>500</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>508</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>511</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>515</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>520</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>523</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>526</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>527</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>528</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>529</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>611</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>612</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>602</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>603</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>604</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>547</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>550</line>
+          <option name="timeStamp" value="23" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>549</line>
+          <option name="timeStamp" value="24" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>556</line>
+          <option name="timeStamp" value="26" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>555</line>
+          <option name="timeStamp" value="27" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>557</line>
+          <option name="timeStamp" value="28" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>566</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>568</line>
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>565</line>
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>532</line>
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>534</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>536</line>
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>537</line>
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>541</line>
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>540</line>
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>542</line>
+          <option name="timeStamp" value="38" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>543</line>
+          <option name="timeStamp" value="39" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>544</line>
+          <option name="timeStamp" value="40" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>452</line>
+          <option name="timeStamp" value="42" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>456</line>
+          <option name="timeStamp" value="43" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>460</line>
+          <option name="timeStamp" value="44" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>465</line>
+          <option name="timeStamp" value="45" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>467</line>
+          <option name="timeStamp" value="46" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>464</line>
+          <option name="timeStamp" value="47" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>469</line>
+          <option name="timeStamp" value="48" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>471</line>
+          <option name="timeStamp" value="49" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>470</line>
+          <option name="timeStamp" value="53" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>468</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>466</line>
+          <option name="timeStamp" value="55" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>485</line>
+          <option name="timeStamp" value="56" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>436</line>
+          <option name="timeStamp" value="57" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>478</line>
+          <option name="timeStamp" value="59" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>480</line>
+          <option name="timeStamp" value="60" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>556</line>
+          <option name="timeStamp" value="62" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>557</line>
+          <option name="timeStamp" value="63" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>486</line>
+          <option name="timeStamp" value="64" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>510</line>
+          <option name="timeStamp" value="65" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>513</line>
+          <option name="timeStamp" value="66" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>407</line>
+          <option name="timeStamp" value="67" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>422</line>
+          <option name="timeStamp" value="69" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>425</line>
+          <option name="timeStamp" value="70" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>427</line>
+          <option name="timeStamp" value="71" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>428</line>
+          <option name="timeStamp" value="72" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>435</line>
+          <option name="timeStamp" value="73" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>438</line>
+          <option name="timeStamp" value="74" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>442</line>
+          <option name="timeStamp" value="75" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>445</line>
+          <option name="timeStamp" value="76" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>450</line>
+          <option name="timeStamp" value="77" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CourierServiceFragment.java</url>
+          <line>452</line>
+          <option name="timeStamp" value="78" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/HomeFragment.java</url>
+          <line>357</line>
+          <option name="timeStamp" value="82" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>488</line>
+          <option name="timeStamp" value="95" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>499</line>
+          <option name="timeStamp" value="96" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>503</line>
+          <option name="timeStamp" value="97" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>501</line>
+          <option name="timeStamp" value="98" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>504</line>
+          <option name="timeStamp" value="99" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>506</line>
+          <option name="timeStamp" value="100" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>507</line>
+          <option name="timeStamp" value="101" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/AshesTrackFragment.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="113" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/AshesTrackFragment.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="115" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/AshesTrackFragment.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="116" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/AshesTrackFragment.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="117" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/AshesTrackFragment.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="119" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/AshesTrackFragment.java</url>
+          <line>132</line>
+          <option name="timeStamp" value="120" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/TrackFragment.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="121" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/TrackFragment.java</url>
+          <line>96</line>
+          <option name="timeStamp" value="123" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/TrackFragment.java</url>
+          <line>95</line>
+          <option name="timeStamp" value="124" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/TrackFragment.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="125" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/TrackFragment.java</url>
+          <line>102</line>
+          <option name="timeStamp" value="127" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/TrackFragment.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="128" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/TrackFragment.java</url>
+          <line>104</line>
+          <option name="timeStamp" value="129" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/TrackFragment.java</url>
+          <line>103</line>
+          <option name="timeStamp" value="130" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>225</line>
+          <option name="timeStamp" value="131" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>377</line>
+          <option name="timeStamp" value="133" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>390</line>
+          <option name="timeStamp" value="134" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>399</line>
+          <option name="timeStamp" value="135" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>400</line>
+          <option name="timeStamp" value="136" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>417</line>
+          <option name="timeStamp" value="138" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>420</line>
+          <option name="timeStamp" value="139" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>445</line>
+          <option name="timeStamp" value="141" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>450</line>
+          <option name="timeStamp" value="142" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>452</line>
+          <option name="timeStamp" value="143" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>451</line>
+          <option name="timeStamp" value="144" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>517</line>
+          <option name="timeStamp" value="146" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>518</line>
+          <option name="timeStamp" value="147" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>462</line>
+          <option name="timeStamp" value="148" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>483</line>
+          <option name="timeStamp" value="150" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>484</line>
+          <option name="timeStamp" value="151" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/CasketServiceFragment.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="152" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>286</line>
+          <option name="timeStamp" value="154" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>288</line>
+          <option name="timeStamp" value="155" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>290</line>
+          <option name="timeStamp" value="156" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>289</line>
+          <option name="timeStamp" value="157" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>291</line>
+          <option name="timeStamp" value="158" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>239</line>
+          <option name="timeStamp" value="159" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>237</line>
+          <option name="timeStamp" value="160" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="161" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/LimoTrackFragment.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="167" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/LimoTrackFragment.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="169" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/LimoTrackFragment.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="173" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/LimoTrackFragment.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="174" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/LimoTrackFragment.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="175" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/LimoTrackFragment.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="178" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/LimoTrackFragment.java</url>
+          <line>189</line>
+          <option name="timeStamp" value="182" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/LimoTrackFragment.java</url>
+          <line>188</line>
+          <option name="timeStamp" value="183" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>258</line>
+          <option name="timeStamp" value="184" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>413</line>
+          <option name="timeStamp" value="186" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>549</line>
+          <option name="timeStamp" value="188" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>548</line>
+          <option name="timeStamp" value="189" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>547</line>
+          <option name="timeStamp" value="190" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>287</line>
+          <option name="timeStamp" value="192" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="194" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>317</line>
+          <option name="timeStamp" value="198" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>310</line>
+          <option name="timeStamp" value="199" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>298</line>
+          <option name="timeStamp" value="200" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>400</line>
+          <option name="timeStamp" value="202" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>401</line>
+          <option name="timeStamp" value="203" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="204" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/FlowerServiceFragment.java</url>
+          <line>326</line>
+          <option name="timeStamp" value="205" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/network/ApiClients.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="209" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/FlowerTrackFragment.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="211" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/FlowerTrackFragment.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="213" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/FlowerTrackFragment.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="214" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/FlowerTrackFragment.java</url>
+          <line>126</line>
+          <option name="timeStamp" value="215" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/FlowerTrackFragment.java</url>
+          <line>123</line>
+          <option name="timeStamp" value="216" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/CourierTrackFragment.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="218" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/CourierTrackFragment.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="219" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/CourierTrackFragment.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="221" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/CourierTrackFragment.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="222" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/CourierTrackFragment.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="223" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="224" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="226" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="227" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="229" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>136</line>
+          <option name="timeStamp" value="230" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>137</line>
+          <option name="timeStamp" value="231" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>153</line>
+          <option name="timeStamp" value="232" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="233" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>100</line>
+          <option name="timeStamp" value="234" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="236" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>191</line>
+          <option name="timeStamp" value="238" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>194</line>
+          <option name="timeStamp" value="239" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>192</line>
+          <option name="timeStamp" value="240" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="241" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>195</line>
+          <option name="timeStamp" value="242" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>196</line>
+          <option name="timeStamp" value="243" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>201</line>
+          <option name="timeStamp" value="244" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="245" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>288</line>
+          <option name="timeStamp" value="246" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>289</line>
+          <option name="timeStamp" value="247" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>290</line>
+          <option name="timeStamp" value="248" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="249" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="251" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="253" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="254" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>223</line>
+          <option name="timeStamp" value="255" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/CourierDetailsPageFragment.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="256" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="259" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>250</line>
+          <option name="timeStamp" value="260" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>257</line>
+          <option name="timeStamp" value="262" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>258</line>
+          <option name="timeStamp" value="263" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>270</line>
+          <option name="timeStamp" value="264" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>273</line>
+          <option name="timeStamp" value="265" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>320</line>
+          <option name="timeStamp" value="266" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>322</line>
+          <option name="timeStamp" value="267" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>324</line>
+          <option name="timeStamp" value="268" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>329</line>
+          <option name="timeStamp" value="269" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>326</line>
+          <option name="timeStamp" value="270" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>252</line>
+          <option name="timeStamp" value="271" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="272" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AshesDetiailsPageFragment.java</url>
+          <line>255</line>
+          <option name="timeStamp" value="273" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>74</line>
+          <option name="timeStamp" value="275" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>70</line>
+          <option name="timeStamp" value="276" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="278" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="280" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="281" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>194</line>
+          <option name="timeStamp" value="283" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>201</line>
+          <option name="timeStamp" value="284" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="285" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="286" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="287" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="289" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>251</line>
+          <option name="timeStamp" value="290" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>252</line>
+          <option name="timeStamp" value="291" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>253</line>
+          <option name="timeStamp" value="292" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>267</line>
+          <option name="timeStamp" value="294" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>222</line>
+          <option name="timeStamp" value="295" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/SignupActivity.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="296" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/AirportArrivalFragment.java</url>
+          <line>583</line>
+          <option name="timeStamp" value="299" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/AirportArrivalFragment.java</url>
+          <line>587</line>
+          <option name="timeStamp" value="302" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/AirportArrivalFragment.java</url>
+          <line>563</line>
+          <option name="timeStamp" value="306" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/AirportArrivalFragment.java</url>
+          <line>565</line>
+          <option name="timeStamp" value="307" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/AirportArrivalFragment.java</url>
+          <line>564</line>
+          <option name="timeStamp" value="308" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/AirportArrivalFragment.java</url>
+          <line>637</line>
+          <option name="timeStamp" value="310" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/LoginActivity.java</url>
+          <line>81</line>
+          <option name="timeStamp" value="312" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/LoginActivity.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="313" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/LoginActivity.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="314" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/LoginActivity.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="315" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/LoginActivity.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="317" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/LoginActivity.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="318" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/activities/LoginActivity.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="319" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>106</line>
+          <option name="timeStamp" value="320" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>116</line>
+          <option name="timeStamp" value="322" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="324" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="325" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="328" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="329" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="330" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java</url>
+          <line>224</line>
+          <option name="timeStamp" value="331" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java</url>
+          <line>225</line>
+          <option name="timeStamp" value="332" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java</url>
+          <line>227</line>
+          <option name="timeStamp" value="336" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java</url>
+          <line>246</line>
+          <option name="timeStamp" value="337" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/AirportRemovalDetailsFragment.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="338" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/BurialServiceFragment.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="339" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>134</line>
+          <option name="timeStamp" value="340" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>133</line>
+          <option name="timeStamp" value="341" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>135</line>
+          <option name="timeStamp" value="342" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="343" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="344" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="345" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>129</line>
+          <option name="timeStamp" value="346" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="347" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="348" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DetailFormPage/AshesViewDetialPageFragment.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="349" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>130</line>
+          <option name="timeStamp" value="351" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>147</line>
+          <option name="timeStamp" value="352" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>148</line>
+          <option name="timeStamp" value="353" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>149</line>
+          <option name="timeStamp" value="354" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="355" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="356" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="357" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="358" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="359" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>172</line>
+          <option name="timeStamp" value="361" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>171</line>
+          <option name="timeStamp" value="362" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="363" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="364" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>216</line>
+          <option name="timeStamp" value="365" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>215</line>
+          <option name="timeStamp" value="366" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="367" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>225</line>
+          <option name="timeStamp" value="369" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>227</line>
+          <option name="timeStamp" value="370" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>230</line>
+          <option name="timeStamp" value="371" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>233</line>
+          <option name="timeStamp" value="372" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>235</line>
+          <option name="timeStamp" value="373" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>231</line>
+          <option name="timeStamp" value="374" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="375" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>229</line>
+          <option name="timeStamp" value="376" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>242</line>
+          <option name="timeStamp" value="377" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>245</line>
+          <option name="timeStamp" value="379" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>247</line>
+          <option name="timeStamp" value="380" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>248</line>
+          <option name="timeStamp" value="382" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>249</line>
+          <option name="timeStamp" value="383" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/bankDetailsFragments/ClientPaymentIntegrationFragment.java</url>
+          <line>292</line>
+          <option name="timeStamp" value="385" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>530</line>
+          <option name="timeStamp" value="387" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>532</line>
+          <option name="timeStamp" value="388" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>533</line>
+          <option name="timeStamp" value="389" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>541</line>
+          <option name="timeStamp" value="390" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>539</line>
+          <option name="timeStamp" value="391" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>544</line>
+          <option name="timeStamp" value="393" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>546</line>
+          <option name="timeStamp" value="394" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>548</line>
+          <option name="timeStamp" value="395" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>550</line>
+          <option name="timeStamp" value="396" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>551</line>
+          <option name="timeStamp" value="397" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>160</line>
+          <option name="timeStamp" value="398" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>633</line>
+          <option name="timeStamp" value="399" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>632</line>
+          <option name="timeStamp" value="400" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>581</line>
+          <option name="timeStamp" value="401" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>582</line>
+          <option name="timeStamp" value="402" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>583</line>
+          <option name="timeStamp" value="403" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>584</line>
+          <option name="timeStamp" value="404" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>585</line>
+          <option name="timeStamp" value="405" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>478</line>
+          <option name="timeStamp" value="406" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java</url>
+          <line>505</line>
+          <option name="timeStamp" value="407" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>275</line>
+          <option name="timeStamp" value="408" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>523</line>
+          <option name="timeStamp" value="410" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>654</line>
+          <option name="timeStamp" value="411" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>656</line>
+          <option name="timeStamp" value="412" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>674</line>
+          <option name="timeStamp" value="413" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>677</line>
+          <option name="timeStamp" value="414" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>681</line>
+          <option name="timeStamp" value="415" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>683</line>
+          <option name="timeStamp" value="416" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>689</line>
+          <option name="timeStamp" value="418" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>690</line>
+          <option name="timeStamp" value="419" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>691</line>
+          <option name="timeStamp" value="420" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>692</line>
+          <option name="timeStamp" value="421" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>662</line>
+          <option name="timeStamp" value="423" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/UsVeteranServiceFragment.java</url>
+          <line>667</line>
+          <option name="timeStamp" value="424" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/USVeteranTrakingFragment.java</url>
+          <line>113</line>
+          <option name="timeStamp" value="425" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/USVeteranTrakingFragment.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="426" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/USVeteranTrakingFragment.java</url>
+          <line>118</line>
+          <option name="timeStamp" value="427" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/USVeteranTrakingFragment.java</url>
+          <line>124</line>
+          <option name="timeStamp" value="430" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/USVeteranTrakingFragment.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="431" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/USVeteranTrakingFragment.java</url>
+          <line>131</line>
+          <option name="timeStamp" value="432" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/USVeteranTrakingFragment.java</url>
+          <line>128</line>
+          <option name="timeStamp" value="433" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/USVeteranTrakingFragment.java</url>
+          <line>236</line>
+          <option name="timeStamp" value="434" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/USVeteranTrakingFragment.java</url>
+          <line>238</line>
+          <option name="timeStamp" value="435" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="440" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="441" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java</url>
+          <line>218</line>
+          <option name="timeStamp" value="442" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="443" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="444" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="445" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java</url>
+          <line>233</line>
+          <option name="timeStamp" value="446" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/EarningListAdapter.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="447" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/LimoDetailPageFragment.java</url>
+          <line>201</line>
+          <option name="timeStamp" value="451" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/LimoDetailPageFragment.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="452" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/LimoDetailPageFragment.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="453" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/LimoDetailPageFragment.java</url>
+          <line>214</line>
+          <option name="timeStamp" value="454" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/LimoDetailPageFragment.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="455" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/LimoDetailPageFragment.java</url>
+          <line>216</line>
+          <option name="timeStamp" value="456" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/LimoDetailPageFragment.java</url>
+          <line>218</line>
+          <option name="timeStamp" value="457" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/LimoDetailPageFragment.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="458" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/ServicesDetailsFragments/LimoDetailPageFragment.java</url>
+          <line>125</line>
+          <option name="timeStamp" value="459" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>152</line>
+          <option name="timeStamp" value="462" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>151</line>
+          <option name="timeStamp" value="463" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>159</line>
+          <option name="timeStamp" value="464" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>162</line>
+          <option name="timeStamp" value="465" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="466" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="467" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="468" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="469" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="470" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>329</line>
+          <option name="timeStamp" value="471" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>330</line>
+          <option name="timeStamp" value="472" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="473" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>170</line>
+          <option name="timeStamp" value="474" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>173</line>
+          <option name="timeStamp" value="475" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>174</line>
+          <option name="timeStamp" value="476" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>175</line>
+          <option name="timeStamp" value="477" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>176</line>
+          <option name="timeStamp" value="478" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>177</line>
+          <option name="timeStamp" value="479" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>181</line>
+          <option name="timeStamp" value="480" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>182</line>
+          <option name="timeStamp" value="481" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>183</line>
+          <option name="timeStamp" value="482" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>184</line>
+          <option name="timeStamp" value="483" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>185</line>
+          <option name="timeStamp" value="484" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>186</line>
+          <option name="timeStamp" value="485" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>187</line>
+          <option name="timeStamp" value="486" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>191</line>
+          <option name="timeStamp" value="487" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>192</line>
+          <option name="timeStamp" value="488" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>193</line>
+          <option name="timeStamp" value="490" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>198</line>
+          <option name="timeStamp" value="492" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>199</line>
+          <option name="timeStamp" value="493" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>203</line>
+          <option name="timeStamp" value="503" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>204</line>
+          <option name="timeStamp" value="504" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>205</line>
+          <option name="timeStamp" value="506" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>206</line>
+          <option name="timeStamp" value="507" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>207</line>
+          <option name="timeStamp" value="508" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>208</line>
+          <option name="timeStamp" value="509" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>209</line>
+          <option name="timeStamp" value="510" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>210</line>
+          <option name="timeStamp" value="511" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>211</line>
+          <option name="timeStamp" value="512" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>212</line>
+          <option name="timeStamp" value="513" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>213</line>
+          <option name="timeStamp" value="514" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>217</line>
+          <option name="timeStamp" value="515" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>218</line>
+          <option name="timeStamp" value="517" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>219</line>
+          <option name="timeStamp" value="518" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>220</line>
+          <option name="timeStamp" value="519" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/servicesTrackStatusFragments/BurialAtSeaTrackingFragment.java</url>
+          <line>221</line>
+          <option name="timeStamp" value="520" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/HomeFragment.java</url>
+          <line>127</line>
+          <option name="timeStamp" value="522" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/HomeFragment.java</url>
+          <line>121</line>
+          <option name="timeStamp" value="523" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/HomeFragment.java</url>
+          <line>122</line>
+          <option name="timeStamp" value="524" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/HomeFragment.java</url>
+          <line>120</line>
+          <option name="timeStamp" value="525" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>573</line>
+          <option name="timeStamp" value="528" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>574</line>
+          <option name="timeStamp" value="529" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>572</line>
+          <option name="timeStamp" value="530" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>154</line>
+          <option name="timeStamp" value="531" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>578</line>
+          <option name="timeStamp" value="532" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>582</line>
+          <option name="timeStamp" value="533" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>583</line>
+          <option name="timeStamp" value="535" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>584</line>
+          <option name="timeStamp" value="536" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>585</line>
+          <option name="timeStamp" value="537" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>586</line>
+          <option name="timeStamp" value="538" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>590</line>
+          <option name="timeStamp" value="539" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>591</line>
+          <option name="timeStamp" value="540" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>602</line>
+          <option name="timeStamp" value="541" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>604</line>
+          <option name="timeStamp" value="542" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>603</line>
+          <option name="timeStamp" value="543" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>581</line>
+          <option name="timeStamp" value="544" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>496</line>
+          <option name="timeStamp" value="545" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>155</line>
+          <option name="timeStamp" value="546" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="547" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>157</line>
+          <option name="timeStamp" value="548" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="549" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>163</line>
+          <option name="timeStamp" value="550" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>164</line>
+          <option name="timeStamp" value="551" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>165</line>
+          <option name="timeStamp" value="552" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>166</line>
+          <option name="timeStamp" value="553" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>167</line>
+          <option name="timeStamp" value="554" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>168</line>
+          <option name="timeStamp" value="555" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/DecendentDetailFragment.java</url>
+          <line>169</line>
+          <option name="timeStamp" value="556" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>472</line>
+          <option name="timeStamp" value="557" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/LimoDetailFragment.java</url>
+          <line>473</line>
+          <option name="timeStamp" value="558" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/HomeAdapter.java</url>
+          <line>76</line>
+          <option name="timeStamp" value="559" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/HomeAdapter.java</url>
+          <line>77</line>
+          <option name="timeStamp" value="560" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/HomeAdapter.java</url>
+          <line>78</line>
+          <option name="timeStamp" value="561" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/adapters/HomeAdapter.java</url>
+          <line>80</line>
+          <option name="timeStamp" value="562" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/PaymentFragment.java</url>
+          <line>200</line>
+          <option name="timeStamp" value="564" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/PaymentFragment.java</url>
+          <line>202</line>
+          <option name="timeStamp" value="565" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="java-line">
+          <url>file://$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/PaymentFragment.java</url>
+          <line>156</line>
+          <option name="timeStamp" value="566" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

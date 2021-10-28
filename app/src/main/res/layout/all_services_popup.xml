@@ -1,0 +1,705 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/_10sdp"
+                android:text="Category Services"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textAllCaps="true"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                ></TextView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_140sdp"
+                        android:elevation="@dimen/_7sdp"
+                        app:cardCornerRadius="@dimen/_7sdp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/descendent_removal"
+                            android:gravity="center"
+
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_11sdp"></ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_8sdp"
+                        android:text="Descendent Removal &amp; Transport"
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/button_shape"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/tv_descendant"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_9sdp"
+                        android:text="Book Now"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/_5sdp"
+                        ></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_140sdp"
+                        android:elevation="@dimen/_7sdp"
+                        app:cardCornerRadius="@dimen/_7sdp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"                            android:layout_height="match_parent"
+                            android:background="@drawable/limo_service"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_11sdp"></ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_8sdp"
+                        android:text="limo transport"
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/button_shape"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/tv_limo"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_9sdp"
+                        android:text="Book Now"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/_5sdp"
+                        ></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_140sdp"
+                        android:elevation="@dimen/_7sdp"
+                        app:cardCornerRadius="@dimen/_7sdp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"                            android:layout_height="match_parent"
+                            android:background="@drawable/casket_service"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_11sdp"></ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_8sdp"
+                        android:text="casket pickup &amp; delivery"
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/button_shape"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/tv_casket"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_9sdp"
+                        android:text="Book Now"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/_5sdp"
+                        ></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_140sdp"
+                        android:elevation="@dimen/_7sdp"
+                        app:cardCornerRadius="@dimen/_7sdp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"                            android:layout_height="match_parent"
+                            android:background="@drawable/flower_service"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_11sdp"></ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_8sdp"
+                        android:text="flower pickup &amp; delivery"
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/button_shape"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/tv_flower"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_9sdp"
+                        android:text="Book Now"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/_5sdp"
+                        ></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_140sdp"
+                        android:elevation="@dimen/_7sdp"
+                        app:cardCornerRadius="@dimen/_7sdp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"                            android:layout_height="match_parent"
+                            android:background="@drawable/ashes_service"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_11sdp"></ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_8sdp"
+                        android:text="ashes &amp; urn pickup &amp; delivery"
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/button_shape"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/tv_ashes"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_9sdp"
+                        android:text="Book Now"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/_5sdp"
+                        ></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_140sdp"
+                        android:elevation="@dimen/_7sdp"
+                        app:cardCornerRadius="@dimen/_7sdp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"                            android:layout_height="match_parent"
+                            android:background="@drawable/courier_service"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_11sdp"></ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_8sdp"
+                        android:text="courier transfer"
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/button_shape"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/tv_courier"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_9sdp"
+                        android:text="Book Now"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/_5sdp"
+                        ></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_140sdp"
+                        android:elevation="@dimen/_7sdp"
+                        app:cardCornerRadius="@dimen/_7sdp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"                            android:layout_height="match_parent"
+                            android:background="@drawable/us_service"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_11sdp"></ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_8sdp"
+                        android:text="us veteran/first responder"
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/button_shape"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/tv_us"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_9sdp"
+                        android:text="Book Now"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/_5sdp"
+                        ></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_140sdp"
+                        android:elevation="@dimen/_7sdp"
+                        app:cardCornerRadius="@dimen/_7sdp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"                            android:layout_height="match_parent"
+                            android:background="@drawable/airport_service"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_11sdp"></ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_8sdp"
+                        android:text=" Airport Arrival/Departure Service"
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/button_shape"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/tv_airport"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_9sdp"
+                        android:text="Book Now"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/_5sdp"
+                        ></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginBottom="@dimen/_10sdp"
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"
+                    android:orientation="vertical">
+                    <androidx.cardview.widget.CardView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/_140sdp"
+                        android:elevation="@dimen/_7sdp"
+                        app:cardCornerRadius="@dimen/_7sdp"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:scaleType="fitXY"                            android:layout_height="match_parent"
+                            android:background="@drawable/burial_service"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/_11sdp"></ImageView>
+
+                    </androidx.cardview.widget.CardView>
+
+
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:layout_weight="2"
+                    android:gravity="center_vertical"
+
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_8sdp"
+                        android:text="Burial at the sea Service"
+                        android:textColor="@color/black"
+                        android:textAllCaps="true"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        android:layout_marginLeft="@dimen/_10sdp"
+                        ></TextView>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_marginTop="@dimen/_5sdp"
+                    android:layout_width="@dimen/_90sdp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:background="@drawable/button_shape"
+
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    >
+                    <TextView
+                        android:id="@+id/tv_Burial"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="@dimen/_9sdp"
+                        android:text="Book Now"
+                        android:textColor="@color/black"
+                        android:gravity="center"
+                        android:layout_margin="@dimen/_5sdp"
+                        ></TextView>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

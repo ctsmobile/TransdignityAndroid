@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Transdignity</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="enter_email_id">Enter Email ID</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="login">Login</string>
+    <string name="forget_your_password">forget your Password?</string>
+    <string name="enter_your_email">Enter Your Email</string>
+    <string name="primary_contact_name">Primary Contact Name</string>
+    <string name="title">Title</string>
+    <string name="cell_phone">Cell Phone</string>
+    <string name="name_of_business">Name of Business</string>
+    <string name="license_number">License Number</string>
+    <string name="years_in_business">Years in Business</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="secondary_contact_name">Secondary Contact Name</string>
+    <string name="office_phone">Office Phone</string>
+    <string name="signup">Signup</string>
+    <string name="skip_step">SKIP STEP</string>
+    <string name="death_service_provider_registration">Death Service Provider Registration</string>
+    <string name="enter_your_email_address_below_and_we_ll_email_you_a_link_to_reset_your_password">Enter your email address below and we\'ll email you a link to reset your password.</string>
+    <string name="we_have_sent_you_a_link_please_verify_the_link_to_proceed">We have sent you a link,\n Please verify the link to proceed.</string>
+    <string name="payment_has_been_done_successfully">Payment has been done,\n Successfully.</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="payment">Payment</string>
+    <string name="contact_us">Contact Us</string>
+    <string name="settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="removed_from">Pickup Location</string>
+    <string name="lorem_ipsum">Lorem Ipsum</string>
+    <string name="transfered_to">Drop Location</string>
+    <string name="send">Send</string>
+    <string name="email_id">Email Id</string>
+    <string name="add_cc">Add CC</string>
+    <string name="enter_subject">Enter Subject</string>
+    <string name="profile">Profile</string>
+    <string name="change_password">Change Password</string>
+    <string name="logout">Logout</string>
+    <string name="enter_full_name">Enter Full Name</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="address">Address</string>
+    <string name="submit">Submit</string>
+    <string name="raise_new_request">Raise New Request</string>
+    <string name="next">Next</string>
+    <string name="call">Call</string>
+    <string name="bill_to">Bill to</string>
+    <string name="requested_by">Requested by</string>
+    <string name="removed_from_address">Removed from address</string>
+    <string name="transferred_to_address">Transferred to address</string>
+    <string name="time_of_death">Time of death</string>
+    <string name="new_req_mag_sent">Your Request has been sent to the admin</string>
+    <string name="address_of_business">Address of Business</string>
+    <string name="enter_current_password">Enter Current Password</string>
+    <string name="enter_new_password">Enter New Password</string>
+    <string name="new_password">New Password</string>
+    <string name="current_password">Current Password</string>
+    <string name="new_order_request">New Order Request</string>
+    <string name="enter_message">Enter Message</string>
+    <string name="Limo_Service">Limo Service</string>
+    <string name="Casket_Service">Casket Service</string>
+    <string name="Flower_Delivery">Flower Delivery</string>
+    <string name="Ashes_Transfer">Ashes Transfer</string>
+    <string name="Courier_Transfer">Courier Transfer</string>
+    <string name="US_Veteran">Us Veteran/First Responder</string>
+    <string name="Burial">Burial at the sea service</string>
+    <string name="Airport_removal">Airport/Removal Service</string>
+    <string name="Pickup_Location">Pickup Location</string>
+    <string name="Drop_Location">Drop Location</string>
+
+    <string-array name="Trip_Type">
+        <item>Select Trip Type</item>
+        <item>Single Trip</item>
+        <item>Round Trip</item>
+    </string-array>
+
+    <string-array name="Type">
+        <item>Select Type</item>
+        <item>Single Trip</item>
+        <item>Round Trip</item>
+    </string-array>
+
+    <string-array name="Select_Bank">
+        <item>Select Bank</item>
+        <item>ICICI Bank</item>
+        <item>HDFC Bank</item>
+        <item>PNB Bank</item>
+        <item>SBI Bank</item>
+    </string-array>
+</resources>
