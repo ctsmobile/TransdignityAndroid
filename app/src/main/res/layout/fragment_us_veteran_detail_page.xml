@@ -1,0 +1,460 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    tools:context=".fragments.viewDetails.UsVeteranDetailPageFragment">
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+
+            <TextView
+                android:id="@+id/tv_back"
+                android:layout_width="@dimen/_24sdp"
+                android:layout_height="@dimen/_24sdp"
+                android:foreground="?attr/selectableItemBackgroundBorderless"
+                android:background="@drawable/ic_chevron_left_black_24dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Us Veteran/First Responder Detail"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_13sdp"
+                android:textStyle="bold" />
+        </androidx.appcompat.widget.Toolbar>
+    </com.google.android.material.appbar.AppBarLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+            <TextView
+                android:id="@+id/tv_date"
+                android:gravity="end"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/_11sdp"
+                android:text="date"
+                android:layout_marginRight="@dimen/_20sdp"
+                android:layout_marginTop="@dimen/_20sdp"
+                ></TextView>
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_10sdp"
+                android:layout_marginRight="@dimen/_10sdp"
+                android:layout_marginLeft="@dimen/_10sdp"
+                android:background="@color/white">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="@dimen/_10sdp"
+                    android:layout_marginLeft="@dimen/_10sdp"
+                    android:layout_marginRight="@dimen/_10sdp"
+                    android:layout_marginBottom="@dimen/_10sdp"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Country"
+                        android:textSize="@dimen/_10ssp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        ></TextView>
+                    <TextView
+
+                        android:id="@+id/tv_country"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Noida sector 63"
+                        android:textSize="@dimen/_9ssp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Name of US Veteran"
+                        android:textSize="@dimen/_10ssp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/tv_us_veteran_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Noida sector 63"
+                        android:textSize="@dimen/_9ssp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Branch Of Military"
+                        android:textSize="@dimen/_10ssp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/tv_branch_of_military"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Noida sector 63"
+                        android:textSize="@dimen/_9ssp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Type"
+                        android:textSize="@dimen/_10ssp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/tv_type"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Noida sector 63"
+                        android:textSize="@dimen/_9ssp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        ></TextView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Requested By"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                ></TextView>
+                            <TextView
+                                android:id="@+id/tv_request_by"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Noida sector 63"
+                                android:textSize="@dimen/_9ssp"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                ></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Date"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                ></TextView>
+                            <TextView
+                                android:id="@+id/tv_request_date"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Noida sector 63"
+                                android:textSize="@dimen/_9ssp"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                ></TextView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Requested Time"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                ></TextView>
+                            <TextView
+                                android:id="@+id/tv_requested_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Noida sector 63"
+                                android:textSize="@dimen/_9ssp"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                ></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Completed Time"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                ></TextView>
+                            <TextView
+                                android:id="@+id/tv_completed_time"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Noida sector 63"
+                                android:textSize="@dimen/_9ssp"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                ></TextView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Pickup Location"
+                        android:textSize="@dimen/_10ssp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/tv_pickup_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Noida sector 63"
+                        android:textSize="@dimen/_9ssp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        ></TextView>
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Drop Location"
+                        android:textSize="@dimen/_10ssp"
+                        android:textColor="@color/black"
+                        android:textStyle="bold"
+                        android:layout_marginTop="@dimen/_5sdp"
+                        ></TextView>
+                    <TextView
+                        android:id="@+id/tv_drop_location"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Noida sector 63"
+                        android:textSize="@dimen/_9ssp"
+                        android:layout_marginTop="@dimen/_3sdp"
+                        ></TextView>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Date Of Birth &amp; Age"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                ></TextView>
+                            <TextView
+                                android:id="@+id/tv_date_of_birth_age"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Noida sector 63"
+                                android:textSize="@dimen/_9ssp"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                ></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Date &amp; Time Of Death"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                ></TextView>
+                            <TextView
+                                android:id="@+id/tv_date_time_of_death"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Noida sector 63"
+                                android:textSize="@dimen/_9ssp"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                ></TextView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Next Of Kin &amp; Phone No"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                ></TextView>
+                            <TextView
+                                android:id="@+id/tv_next_of_kin_phone"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Noida sector 63"
+                                android:textSize="@dimen/_9ssp"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                ></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Body Release"                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                ></TextView>
+                            <TextView
+                                android:id="@+id/tv_release_body"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Noida sector 63"
+                                android:textSize="@dimen/_9ssp"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                ></TextView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        >
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Personal Effect"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                ></TextView>
+                            <TextView
+                                android:id="@+id/tv_personal_effect"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Noida sector 63"
+                                android:textSize="@dimen/_9ssp"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                ></TextView>
+                        </LinearLayout>
+                        <LinearLayout
+                            android:layout_weight="1"
+                            android:layout_width="0dp"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Extra Item Request"
+                                android:textSize="@dimen/_10ssp"
+                                android:textColor="@color/black"
+                                android:textStyle="bold"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                ></TextView>
+                            <TextView
+                                android:id="@+id/tv_extra_item_request"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="Noida sector 63"
+                                android:textSize="@dimen/_9ssp"
+                                android:layout_marginTop="@dimen/_3sdp"
+                                ></TextView>
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
