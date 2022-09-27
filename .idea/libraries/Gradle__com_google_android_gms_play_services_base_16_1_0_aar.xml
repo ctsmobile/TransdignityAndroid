@@ -10,6 +10,15 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d802357be37cc56081e150eae87ab9a/jetified-play-services-base-16.1.0/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d802357be37cc56081e150eae87ab9a/jetified-play-services-base-16.1.0/AndroidManifest.xml" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/1d802357be37cc56081e150eae87ab9a/jetified-play-services-base-16.1.0/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b80e6998e3fadb3d5c47ae2ce135c950/jetified-play-services-base-16.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b80e6998e3fadb3d5c47ae2ce135c950/jetified-play-services-base-16.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/b80e6998e3fadb3d5c47ae2ce135c950/jetified-play-services-base-16.1.0/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba99288bc6a349440c7706311633c047/jetified-play-services-base-16.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba99288bc6a349440c7706311633c047/jetified-play-services-base-16.1.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/ba99288bc6a349440c7706311633c047/jetified-play-services-base-16.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6bcdab839511048ef45b1fb5b96493b3/jetified-play-services-base-16.1.0/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6bcdab839511048ef45b1fb5b96493b3/jetified-play-services-base-16.1.0/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/6bcdab839511048ef45b1fb5b96493b3/jetified-play-services-base-16.1.0/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC>
       <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.google.android.gms/play-services-base/16.1.0/3e3589bff6719404b47afecaa49d192cfa3f5791/play-services-base-16.1.0-javadoc.jar!/" />

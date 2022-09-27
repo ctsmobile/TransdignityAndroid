@@ -10,6 +10,15 @@
       <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4eec150bb4c284af4882c824719965ee/jetified-firebase-analytics-impl-16.2.2/jars/classes.jar!/" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4eec150bb4c284af4882c824719965ee/jetified-firebase-analytics-impl-16.2.2/res" />
       <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/4eec150bb4c284af4882c824719965ee/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc581494a1e08bd6e50a76927fe4c2a1/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc581494a1e08bd6e50a76927fe4c2a1/jetified-firebase-analytics-impl-16.2.2/res" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/dc581494a1e08bd6e50a76927fe4c2a1/jetified-firebase-analytics-impl-16.2.2/jars/classes.jar!/" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/04fbf752960ad08ac0e62e3000b78250/jetified-firebase-analytics-impl-16.2.2/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/04fbf752960ad08ac0e62e3000b78250/jetified-firebase-analytics-impl-16.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/04fbf752960ad08ac0e62e3000b78250/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9157a90ed759f7c61f5bd080661889ac/jetified-firebase-analytics-impl-16.2.2/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9157a90ed759f7c61f5bd080661889ac/jetified-firebase-analytics-impl-16.2.2/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9157a90ed759f7c61f5bd080661889ac/jetified-firebase-analytics-impl-16.2.2/jars/classes.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
