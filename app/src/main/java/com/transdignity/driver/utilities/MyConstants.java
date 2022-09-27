@@ -1,7 +1,8 @@
 package com.transdignity.driver.utilities;
 
 public class MyConstants {
-    public static final String BASE_URL = "https://firstcall.chawtechsolutions.ch/";
+    public static final String BASE_URL = "https://www.transdignityservice.com/";
+    //public static final String BASE_URL = "https://firstcall.chawtechsolutions.ch/";
     public static final String XAPIKEY = "b8da15fba00ed2a4e4f20ee12c2ba32c";
     public static String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
     public static final String PREF_FCM_TOKEN = "fcm_pref";
