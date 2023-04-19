@@ -6,7 +6,7 @@ public class MyConstants {
     public static final String XAPIKEY = "b8da15fba00ed2a4e4f20ee12c2ba32c";
     public static final String PLACEAPIKEY = "AIzaSyAbu78hgfgNG14g4af-A2X_3XXZsIg03JI";
     public static String emailPattern = "[a-zA-Z0-9._-]+@[a-z]+\\.+[a-z]+";
-    public static final String PREF_FCM_TOKEN = "fcm_pref";
+  //  public static final String PREF_FCM_TOKEN = "fcm_pref";
     public static final String FCM_TOKEN = "fcm_token";
     public static  boolean isFromNotification=false;
     public static  boolean isNewTask=false;
