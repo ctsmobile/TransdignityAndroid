@@ -1,0 +1,260 @@
+package com.transdignity.deathserviceprovider.fragments.servicesTrackStatusFragments;
+
+import android.app.Activity;
+import android.content.Context;
+import android.os.Bundle;
+
+import androidx.fragment.app.Fragment;
+
+import android.view.LayoutInflater;
+import android.view.View;
+import android.view.ViewGroup;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import com.transdignity.deathserviceprovider.R;
+import com.transdignity.deathserviceprovider.models.auth.LoginResponse;
+import com.transdignity.deathserviceprovider.models.requestDetails.Data;
+import com.transdignity.deathserviceprovider.models.tracking.LimooTrackingModel;
+import com.transdignity.deathserviceprovider.models.tracking.UsVeteranTrakingModel;
+import com.transdignity.deathserviceprovider.network.ApiClients;
+import com.transdignity.deathserviceprovider.network.ApiInterface;
+import com.transdignity.deathserviceprovider.utilities.CommonUtils;
+import com.transdignity.deathserviceprovider.utilities.GlobalValues;
+import com.transdignity.deathserviceprovider.utilities.PreferenceManager;
+
+import org.json.JSONException;
+import org.json.JSONObject;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+
+import retrofit2.Call;
+import retrofit2.Callback;
+import retrofit2.Response;
+
+
+public class USVeteranTrakingFragment extends Fragment {
+    Context context;
+    Activity activity;
+    LoginResponse loginResponse;
+    String id;
+    View view;
+    TextView tv_decendent_name,tv_pickup_location,tv_drop_location;
+    ImageView iv_request_accepted,iv_removal_specialist_assigned,iv_driver_assigned,
+            iv_driver_reached_on_removal_specialist_location,im_pick_up_removal_specialist,
+            im_reached_on_us_veteran_body_pick_up_location,im_body_transfer_to_drop_location,im_request_completed;
+    TextView tv_request_accepted,tv_removal_specialist_assigned,tv_driver_assigned,
+            tv_driver_reached_on_removal_specialist_location,tv_pick_up_removal_specialist,
+            tv_reached_on_us_veteran_body_pick_up_location,tv_body_transfer_to_drop_location,tv_request_completed;
+    public USVeteranTrakingFragment() {
+        // Required empty public constructor
+    }
+
+
+    public static USVeteranTrakingFragment newInstance(String id) {
+        USVeteranTrakingFragment fragment = new USVeteranTrakingFragment();
+        fragment.id = id;
+
+        return fragment;
+    }
+    @Override
+    public void onAttach(Context context) {
+        super.onAttach(context);
+        this.context = context;
+    }
+
+    @Override
+    public void onAttach(Activity activity) {
+        super.onAttach(activity);
+        this.activity = activity;
+    }
+    @Override
+    public void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        if (getArguments() != null) {
+
+        }
+    }
+
+    @Override
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        view= inflater.inflate(R.layout.fragment_u_s_veteran_traking, container, false);
+        loginResponse = (LoginResponse) GlobalValues.getPreferenceManager().getObject(PreferenceManager.LoginResponseKey, LoginResponse.class);
+        init();
+        return view;
+    }
+
+    public void init(){
+        tv_decendent_name=view.findViewById(R.id.tv_decendent_name);
+        tv_pickup_location=view.findViewById(R.id.tv_pickup_location);
+        tv_drop_location=view.findViewById(R.id.tv_drop_location);
+
+        iv_request_accepted=view.findViewById(R.id.iv_request_accepted);
+        iv_removal_specialist_assigned=view.findViewById(R.id.iv_removal_specialist_assigned);
+        iv_driver_assigned=view.findViewById(R.id.iv_driver_assigned);
+        iv_driver_reached_on_removal_specialist_location=view.findViewById(R.id.iv_driver_reached_on_removal_specialist_location);
+        im_pick_up_removal_specialist=view.findViewById(R.id.im_pick_up_removal_specialist);
+        im_reached_on_us_veteran_body_pick_up_location=view.findViewById(R.id.im_reached_on_us_veteran_body_pick_up_location);
+        im_body_transfer_to_drop_location=view.findViewById(R.id.im_body_transfer_to_drop_location);
+        im_request_completed=view.findViewById(R.id.im_request_completed);
+
+        tv_request_accepted=view.findViewById(R.id.tv_request_accepted);
+        tv_removal_specialist_assigned=view.findViewById(R.id.tv_removal_specialist_assigned);
+        tv_driver_assigned=view.findViewById(R.id.tv_driver_assigned);
+        tv_driver_reached_on_removal_specialist_location=view.findViewById(R.id.tv_driver_reached_on_removal_specialist_location);
+        tv_pick_up_removal_specialist=view.findViewById(R.id.tv_pick_up_removal_specialist);
+        tv_reached_on_us_veteran_body_pick_up_location=view.findViewById(R.id.tv_reached_on_us_veteran_body_pick_up_location);
+        tv_body_transfer_to_drop_location=view.findViewById(R.id.tv_body_transfer_to_drop_location);
+        tv_request_completed=view.findViewById(R.id.tv_request_completed);
+        trackStatus();
+    }
+
+    void trackStatus() {
+        ApiInterface apiInterface = ApiClients.getClient(context).create(ApiInterface.class);
+        Call<UsVeteranTrakingModel> call = apiInterface.trackUSVeteranStatusApi(loginResponse.getData().getToken(), id);
+        call.enqueue(new Callback<UsVeteranTrakingModel>() {
+            @Override
+            public void onResponse(Call<UsVeteranTrakingModel> call, Response<UsVeteranTrakingModel> response) {
+                try {
+
+                    if (response.code() >= 200 && response.code() <= 210) {
+                        if (response.body().getSuccess().equalsIgnoreCase("true")) {
+                            tv_decendent_name.setText(response.body().getData().getDecendantName());
+                            tv_pickup_location.setText(response.body().getData().getRemovedFromAddress());
+                            tv_drop_location.setText(response.body().getData().getTransferredToAddress());
+                            String removal_specialists_assign_time = response.body().getData().getRemovalSpecialistsAssignTime();
+                            String cab_driver_assign_time = response.body().getData().getCabDriverAssignTime();
+                            String reached_on_rs_location_time = response.body().getData().getReachedOnRsLocationTime();
+                            String pickup_rs_time = response.body().getData().getPickupRsTime();
+                            String reached_on_decendant_pickup_location_time = response.body().getData().getReachedOnDecendantPickupLocationTime();
+                            String pickup_decendent_time = response.body().getData().getPickupDecendentTime();
+                            String drop_decendant_time = response.body().getData().getDropDecendantTime();
+                            if(removal_specialists_assign_time!=null){
+                                iv_removal_specialist_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_removal_specialist_assigned.setText(removal_specialists_assign_time);
+
+
+
+                            }
+                            if(cab_driver_assign_time!=null){
+                                iv_removal_specialist_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_removal_specialist_assigned.setText(removal_specialists_assign_time);
+                                iv_driver_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_driver_assigned.setText(cab_driver_assign_time);
+
+
+
+                            }
+                            if(reached_on_rs_location_time!=null){
+                                iv_removal_specialist_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_removal_specialist_assigned.setText(removal_specialists_assign_time);
+                                iv_driver_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_driver_assigned.setText(cab_driver_assign_time);
+                                iv_driver_reached_on_removal_specialist_location.setImageResource(R.drawable.circle_fill);
+                                tv_driver_reached_on_removal_specialist_location.setText(reached_on_rs_location_time);
+                            }
+                            if(pickup_rs_time!=null){
+                                iv_removal_specialist_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_removal_specialist_assigned.setText(removal_specialists_assign_time);
+                                iv_driver_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_driver_assigned.setText(cab_driver_assign_time);
+                                iv_driver_reached_on_removal_specialist_location.setImageResource(R.drawable.circle_fill);
+                                tv_driver_reached_on_removal_specialist_location.setText(reached_on_rs_location_time);                                im_pick_up_removal_specialist.setImageResource(R.drawable.circle_fill);
+                                tv_pick_up_removal_specialist.setText(pickup_rs_time);
+
+
+                            }
+                            if(reached_on_decendant_pickup_location_time!=null){
+                                iv_removal_specialist_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_removal_specialist_assigned.setText(removal_specialists_assign_time);
+                                iv_driver_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_driver_assigned.setText(cab_driver_assign_time);
+                                iv_driver_reached_on_removal_specialist_location.setImageResource(R.drawable.circle_fill);
+                                tv_driver_reached_on_removal_specialist_location.setText(reached_on_rs_location_time);                                im_pick_up_removal_specialist.setImageResource(R.drawable.circle_fill);
+                                tv_pick_up_removal_specialist.setText(pickup_rs_time);
+                                im_reached_on_us_veteran_body_pick_up_location.setImageResource(R.drawable.circle_fill);
+                                tv_reached_on_us_veteran_body_pick_up_location.setText(reached_on_decendant_pickup_location_time);
+
+
+
+                            }
+                            if(pickup_decendent_time!=null){
+                                iv_removal_specialist_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_removal_specialist_assigned.setText(removal_specialists_assign_time);
+                                iv_driver_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_driver_assigned.setText(cab_driver_assign_time);
+                                iv_driver_reached_on_removal_specialist_location.setImageResource(R.drawable.circle_fill);
+                                tv_driver_reached_on_removal_specialist_location.setText(reached_on_rs_location_time);                                im_pick_up_removal_specialist.setImageResource(R.drawable.circle_fill);
+                                tv_pick_up_removal_specialist.setText(pickup_rs_time);
+                                im_reached_on_us_veteran_body_pick_up_location.setImageResource(R.drawable.circle_fill);
+                                tv_reached_on_us_veteran_body_pick_up_location.setText(reached_on_decendant_pickup_location_time);                                im_body_transfer_to_drop_location.setImageResource(R.drawable.circle_fill);
+                                tv_body_transfer_to_drop_location.setText(pickup_decendent_time);
+
+                            }
+                            if(drop_decendant_time!=null){
+                                iv_removal_specialist_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_removal_specialist_assigned.setText(removal_specialists_assign_time);
+                                iv_driver_assigned.setImageResource(R.drawable.circle_fill);
+                                tv_driver_assigned.setText(cab_driver_assign_time);
+                                iv_driver_reached_on_removal_specialist_location.setImageResource(R.drawable.circle_fill);
+                                tv_driver_reached_on_removal_specialist_location.setText(reached_on_rs_location_time);                                im_pick_up_removal_specialist.setImageResource(R.drawable.circle_fill);
+                                tv_pick_up_removal_specialist.setText(pickup_rs_time);
+                                im_reached_on_us_veteran_body_pick_up_location.setImageResource(R.drawable.circle_fill);
+                                tv_reached_on_us_veteran_body_pick_up_location.setText(reached_on_decendant_pickup_location_time);                                im_body_transfer_to_drop_location.setImageResource(R.drawable.circle_fill);
+                                tv_body_transfer_to_drop_location.setText(pickup_decendent_time);
+                                im_request_completed.setImageResource(R.drawable.circle_fill);
+                                tv_request_completed.setText(drop_decendant_time);
+
+                            }
+
+//2651  883
+                        } else {
+                        }
+
+                    } else {
+                        BufferedReader reader = null;
+                        StringBuilder sb = new StringBuilder();
+                        try {
+                            reader = new BufferedReader(new InputStreamReader(response.errorBody().byteStream()));
+                            String line;
+                            try {
+                                while ((line = reader.readLine()) != null) {
+                                    sb.append(line);
+                                }
+                            } catch (IOException e) {
+                                e.printStackTrace();
+                            }
+                        } catch (Exception e) {
+                            e.printStackTrace();
+                        }
+                        try {
+                            String finallyError = sb.toString();
+                            JSONObject jsonObjectError = new JSONObject(finallyError);
+                            String message = jsonObjectError.optString("message");
+                            Toast.makeText(context, message, Toast.LENGTH_LONG).show();
+                            if (jsonObjectError.optString("token_valid").equalsIgnoreCase("false")) {
+                                CommonUtils.logoutSession(activity);
+                            }
+                        } catch (JSONException e) {
+                            e.printStackTrace();
+                        }
+                    }
+                } catch (Exception e) {
+
+                }
+            }
+
+            @Override
+            public void onFailure(Call<UsVeteranTrakingModel> call, Throwable t) {
+
+
+            }
+        });
+    }
+
+}

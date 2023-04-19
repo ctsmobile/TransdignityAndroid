@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "643899337618",
+    "firebase_url": "https://transdignity-thefirstcall.firebaseio.com",
+    "project_id": "transdignity-thefirstcall",
+    "storage_bucket": "transdignity-thefirstcall.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:643899337618:android:bfd930027f8e1562182f4b",
+        "android_client_info": {
+          "package_name": "com.transdignity.deathserviceprovider"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "643899337618-id2p1f2ong2uj9qkmcf4qtmjeooudff8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDJuAVs52hEOi0ZuyH9VXN5lCEIv5CGJyk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "643899337618-id2p1f2ong2uj9qkmcf4qtmjeooudff8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

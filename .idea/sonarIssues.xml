@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="issues">
+    <option name="index">
+      <map>
+        <entry key="/fragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="/fragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/fragments/NewRequestFragment.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/network/ApiInterface.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/java/com/transdignity/deathserviceprovider/utilities/GlobalValues.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/AndroidManifest.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/activity/AddEventActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/activity/EditProfessionalProfileActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/activity/EventActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/activity/EventDetailsActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/activity/HtmlViewActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/activity/MainActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/activity/ProfileActivity.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/adapter/EducationAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/adapter/ExperienceAdapter.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/fragment/ArticleFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/fragment/ProfilePersonalFragment.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/network/ApiInterface.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/utils/GlobalValue.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/utils/GlobalValues.java">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/utils/MyConstants.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/java/com/chawtech/kidyviewteacher/teacher/utils/SharedPrefrence.kt">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/res/drawable/edit_text_bg.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/res/layout/activity_add_event.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/res/layout/activity_html_view.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/res/layout/activity_profile.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/res/layout/fragment_profile_personal.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/app/src/main/res/values/colors.xml">
+          <value>
+            <set />
+          </value>
+        </entry>
+        <entry key="$PROJECT_DIR$/../../../kidyview_teacher/build.gradle">
+          <value>
+            <set />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
