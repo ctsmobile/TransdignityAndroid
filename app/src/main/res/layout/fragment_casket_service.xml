@@ -66,8 +66,7 @@
                 android:layout_height="wrap_content"
                 android:text="Pick Up Location"
                 android:textColor="@color/dark_grey"
-                android:textSize="@dimen/_10sdp"
-                ></TextView>
+                android:textSize="@dimen/_10sdp"/>
             <LinearLayout
                 android:id="@+id/ll_pickup"
                 android:layout_width="match_parent"
@@ -89,8 +88,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/_10sdp"
                         android:paddingLeft="@dimen/_10sdp"
-                        android:maxLines="1"
-                        ></TextView>
+                        android:maxLines="1"/>
 
                 </LinearLayout>
                 <LinearLayout
@@ -116,8 +114,7 @@
                 android:text="Sender First Name"
                 android:textColor="@color/dark_grey"
                 android:textSize="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_10sdp"
-                ></TextView>
+                android:layout_marginTop="@dimen/_10sdp"/>
             <EditText
                 android:id="@+id/ed_sender_first_name"
                 android:layout_width="match_parent"
@@ -126,16 +123,14 @@
                 android:background="@drawable/edittext_background_shape"
                 android:paddingLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:maxLines="1"
-                ></EditText>
+                android:maxLines="1"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sender Last Name"
                 android:textColor="@color/dark_grey"
                 android:textSize="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_10sdp"
-                ></TextView>
+                android:layout_marginTop="@dimen/_10sdp"/>
             <EditText
                 android:id="@+id/ed_sender_last_name"
                 android:layout_width="match_parent"
@@ -144,16 +139,14 @@
                 android:background="@drawable/edittext_background_shape"
                 android:paddingLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:maxLines="1"
-                ></EditText>
+                android:maxLines="1"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="Sender Mobile No."
                 android:textColor="@color/dark_grey"
                 android:textSize="@dimen/_10sdp"
-                android:layout_marginTop="@dimen/_10sdp"
-                ></TextView>
+                android:layout_marginTop="@dimen/_10sdp"/>
             <EditText
                 android:id="@+id/ed_sender_mobile_no"
                 android:layout_width="match_parent"
@@ -162,8 +155,7 @@
                 android:background="@drawable/edittext_background_shape"
                 android:paddingLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:maxLines="1"
-                ></EditText>
+                android:maxLines="1"/>
             <TextView
                 android:visibility="gone"
                 android:layout_width="wrap_content"
@@ -171,7 +163,7 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:text="Enter Date &amp; Time (Courier)"
                 android:textColor="@color/dark_grey"
-                android:textSize="@dimen/_10sdp"></TextView>
+                android:textSize="@dimen/_10sdp"/>
             <EditText
                 android:visibility="gone"
                 android:id="@+id/ed_date"
@@ -182,8 +174,7 @@
                 android:background="@drawable/edittext_background_shape"
                 android:paddingLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:maxLines="1"
-                ></EditText>
+                android:maxLines="1"/>
 
             <TextView
                 android:visibility="gone"
@@ -192,7 +183,7 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:text="Select Date"
                 android:textColor="@color/dark_grey"
-                android:textSize="@dimen/_10sdp"></TextView>
+                android:textSize="@dimen/_10sdp"/>
             <LinearLayout
                 android:visibility="gone"
                 android:layout_width="match_parent"
@@ -219,8 +210,7 @@
                         android:maxLines="1"
                         android:text=""
                         android:gravity="center_vertical"
-                        android:layout_gravity="center_vertical"
-                        ></TextView>
+                        android:layout_gravity="center_vertical"/>
 
                 </LinearLayout>
                 <LinearLayout
@@ -249,7 +239,7 @@
                 android:text="Select Time"
                 android:layout_gravity=""
                 android:textColor="@color/dark_grey"
-                android:textSize="@dimen/_10sdp"></TextView>
+                android:textSize="@dimen/_10sdp"/>
 
             <LinearLayout
                 android:visibility="gone"
@@ -305,7 +295,7 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:text="Drop Location"
                 android:textColor="@color/dark_grey"
-                android:textSize="@dimen/_10sdp"></TextView>
+                android:textSize="@dimen/_10sdp"/>
             <LinearLayout
                 android:id="@+id/ll_drop"
                 android:layout_width="match_parent"
@@ -328,8 +318,7 @@
                         android:layout_height="wrap_content"
                         android:textSize="@dimen/_10sdp"
                         android:paddingLeft="@dimen/_10sdp"
-                        android:maxLines="1"
-                        ></TextView>
+                        android:maxLines="1"/>
 
                 </LinearLayout>
                 <LinearLayout
@@ -355,7 +344,7 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:text="Receiver First Name"
                 android:textColor="@color/dark_grey"
-                android:textSize="@dimen/_10sdp"></TextView>
+                android:textSize="@dimen/_10sdp"/>
             <EditText
                 android:id="@+id/ed_receiver_first_name"
                 android:layout_width="match_parent"
@@ -364,15 +353,14 @@
                 android:background="@drawable/edittext_background_shape"
                 android:paddingLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:maxLines="1"
-                ></EditText>
+                android:maxLines="1"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:text="Receiver Last Name"
                 android:textColor="@color/dark_grey"
-                android:textSize="@dimen/_10sdp"></TextView>
+                android:textSize="@dimen/_10sdp"/>
             <EditText
                 android:id="@+id/ed_receiver_last_name"
                 android:layout_width="match_parent"
@@ -381,15 +369,14 @@
                 android:background="@drawable/edittext_background_shape"
                 android:paddingLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:maxLines="1"
-                ></EditText>
+                android:maxLines="1"/>
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginTop="@dimen/_10sdp"
                 android:text="Receiver Mobile No."
                 android:textColor="@color/dark_grey"
-                android:textSize="@dimen/_10sdp"></TextView>
+                android:textSize="@dimen/_10sdp"/>
             <EditText
                 android:id="@+id/ed_receiver_mobile_no"
                 android:layout_width="match_parent"
@@ -398,8 +385,7 @@
                 android:background="@drawable/edittext_background_shape"
                 android:paddingLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:maxLines="1"
-                ></EditText>
+                android:maxLines="1"/>
 
             <TextView
                 android:layout_width="wrap_content"
@@ -407,7 +393,7 @@
                 android:layout_marginTop="@dimen/_10sdp"
                 android:text="Description"
                 android:textColor="@color/dark_grey"
-                android:textSize="@dimen/_10sdp"></TextView>
+                android:textSize="@dimen/_10sdp"/>
             <EditText
                 android:id="@+id/ed_description"
                 android:layout_width="match_parent"
@@ -416,8 +402,7 @@
                 android:background="@drawable/edittext_background_shape"
                 android:paddingLeft="@dimen/_10sdp"
                 android:layout_marginTop="@dimen/_5sdp"
-                android:maxLines="1"
-                ></EditText>
+                android:maxLines="1"/>
 
 
 
@@ -444,8 +429,7 @@
                         android:text="Submit"
                         android:textColor="@color/black"
                         android:gravity="center"
-                        android:layout_marginRight="@dimen/_20sdp"
-                        ></TextView>
+                        android:layout_marginRight="@dimen/_20sdp"/>
                     <TextView
                         android:visibility="gone"
                         android:id="@+id/ll_retry"
@@ -456,8 +440,7 @@
                         android:text="Retry"
                         android:textColor="@color/black"
                         android:gravity="center"
-                        android:layout_marginRight="@dimen/_20sdp"
-                        ></TextView>
+                        android:layout_marginRight="@dimen/_20sdp"/>
                 </LinearLayout>
                 <LinearLayout
                     android:layout_width="match_parent"
@@ -473,8 +456,7 @@
                         android:text="Cancel"
                         android:textColor="@color/black"
                         android:gravity="center"
-                        android:layout_marginLeft="@dimen/_20sdp"
-                        ></TextView>
+                        android:layout_marginLeft="@dimen/_20sdp"/>
                 </LinearLayout>
             </LinearLayout>
         </LinearLayout>
@@ -485,8 +467,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:alpha="0.50"
-            android:background="@color/dark_grey"
-            ></FrameLayout>
+            android:background="@color/dark_grey"/>
     </RelativeLayout>
 
 </LinearLayout>
