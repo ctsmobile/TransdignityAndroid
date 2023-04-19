@@ -12,6 +12,7 @@ import com.transdignity.deathserviceprovider.databinding.ActivitySplashBinding;
 import com.transdignity.deathserviceprovider.utilities.GlobalValues;
 
 public class SplashActivity extends AppCompatActivity {
+    //git test
     ActivitySplashBinding binding;
     private Handler handler;
     private Runnable runnable;
